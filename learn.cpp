@@ -5,9 +5,15 @@ using namespace std;
 
 int main() {
 
-	cout << sqrt(25); 
-	return 0;
+	for(int i =1; i<=5;i++){
+
+        for(int j=0; j<i;j++){
+
+            cout<<"*";
+        }
+        cout<<"\n";
+    }
+
+    return 0;
 }
 
-//Compilation time 0.005s
-//Code submitted by Susobhan AKhuli
